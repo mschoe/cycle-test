@@ -39,11 +39,11 @@
       <semantic:sequenceFlow id="SequenceFlow_2" name="" sourceRef="ExclusiveGateway_1"
                              targetRef="SendTask_1"/>
       <semantic:task id="Task_1"/>
-      <semantic:sequenceFlow id="SequenceFlow_3" name="" sourceRef="SendTask_1" targetRef="Task_1"/>
+      <semantic:sequenceFlow id="SequenceFlow_3" name="Fluß 1" sourceRef="SendTask_1" targetRef="Task_1"/>
       <semantic:exclusiveGateway id="ExclusiveGateway_2"/>
-      <semantic:sequenceFlow id="SequenceFlow_4" name="" sourceRef="Task_1" targetRef="ExclusiveGateway_2"/>
+      <semantic:sequenceFlow id="SequenceFlow_4" name="öäü" sourceRef="Task_1" targetRef="ExclusiveGateway_2"/>
       <semantic:task id="Task_2"/>
-      <semantic:sequenceFlow id="SequenceFlow_6" name="" sourceRef="ExclusiveGateway_2" targetRef="Task_2"/>
+      <semantic:sequenceFlow id="SequenceFlow_6" name="üü++ü" sourceRef="ExclusiveGateway_2" targetRef="Task_2"/>
       <semantic:task id="Task_3"/>
       <semantic:sequenceFlow id="SequenceFlow_7" name="" sourceRef="Task_2" targetRef="Task_3"/>
       <semantic:endEvent id="EndEvent_1"/>
