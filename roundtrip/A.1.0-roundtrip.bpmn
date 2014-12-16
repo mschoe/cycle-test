@@ -41,9 +41,11 @@
       <semantic:task id="Task_1"/>
       <semantic:sequenceFlow id="SequenceFlow_3" name="Fluß 1" sourceRef="SendTask_1" targetRef="Task_1"/>
       <semantic:exclusiveGateway id="ExclusiveGateway_2"/>
-      <semantic:sequenceFlow id="SequenceFlow_4" name="öäü" sourceRef="Task_1" targetRef="ExclusiveGateway_2"/>
+      <semantic:sequenceFlow id="SequenceFlow_4" name="öäü" sourceRef="Task_1"
+                             targetRef="ExclusiveGateway_2"/>
       <semantic:task id="Task_2"/>
-      <semantic:sequenceFlow id="SequenceFlow_6" name="üü++ü" sourceRef="ExclusiveGateway_2" targetRef="Task_2"/>
+      <semantic:sequenceFlow id="SequenceFlow_6" name="üü++ü" sourceRef="ExclusiveGateway_2"
+                             targetRef="Task_2"/>
       <semantic:task id="Task_3"/>
       <semantic:sequenceFlow id="SequenceFlow_7" name="" sourceRef="Task_2" targetRef="Task_3"/>
       <semantic:endEvent id="EndEvent_1"/>
@@ -63,31 +65,30 @@
       <bpmndi:BPMNPlane bpmnElement="_Collaboration_2">
          <bpmndi:BPMNShape id="S1373649849857__93c466ab-b271-4376-a427-f4c353d55ce8"
                            bpmnElement="_93c466ab-b271-4376-a427-f4c353d55ce8">
-            <dc:Bounds height="30.0" width="30.0" x="111" y="109"/>
+            <dc:Bounds height="30.0" width="30.0" x="84" y="109"/>
             <bpmndi:BPMNLabel labelStyle="LS1373649849858">
-               <dc:Bounds height="22.0" width="70.0" x="90" y="144"/>
+               <dc:Bounds height="22.0" width="70.0" x="63" y="144"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape id="S1373649849859__ec59e164-68b4-4f94-98de-ffb1c58a84af"
                            bpmnElement="_ec59e164-68b4-4f94-98de-ffb1c58a84af">
             <dc:Bounds height="68.0" width="83.0" x="183" y="90"/>
             <bpmndi:BPMNLabel labelStyle="LS1373649849858">
-               <dc:Bounds height="12.804751" width="72.48294" x="254.33334000000002"
-                          y="117.58188000000001"/>
+               <dc:Bounds height="12.804751" width="72.48294" x="254.33334" y="117.58188"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape id="S1373649849860__820c21c0-45f3-473b-813f-06381cc637cd"
                            bpmnElement="_820c21c0-45f3-473b-813f-06381cc637cd">
             <dc:Bounds height="68.0" width="83.0" x="381" y="90"/>
             <bpmndi:BPMNLabel labelStyle="LS1373649849858">
-               <dc:Bounds height="12.804751" width="72.48294" x="386.33334" y="117.58188000000001"/>
+               <dc:Bounds height="12.804751" width="72.48294" x="386.33334" y="117.58188"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape id="S1373649849861__e70a6fcb-913c-4a7b-a65d-e83adc73d69c"
                            bpmnElement="_e70a6fcb-913c-4a7b-a65d-e83adc73d69c">
             <dc:Bounds height="68.0" width="83.0" x="513" y="90"/>
             <bpmndi:BPMNLabel labelStyle="LS1373649849858">
-               <dc:Bounds height="12.804751" width="72.48294" x="518.3333" y="117.58188000000001"/>
+               <dc:Bounds height="12.804751" width="72.48294" x="518.3333" y="117.58188"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape id="S1373649849862__a47df184-085b-49f7-bb82-031c84625821"
@@ -108,10 +109,10 @@
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="E1373649849865__e16564d7-0c4c-413e-95f6-f668a3f851fb"
                           bpmnElement="_e16564d7-0c4c-413e-95f6-f668a3f851fb">
-            <di:waypoint xsi:type="dc:Point" x="141" y="124"/>
+            <di:waypoint xsi:type="dc:Point" x="114" y="124"/>
             <di:waypoint xsi:type="dc:Point" x="183" y="124"/>
             <bpmndi:BPMNLabel>
-               <dc:Bounds height="6.0" width="6.0" x="159" y="124"/>
+               <dc:Bounds height="6.0" width="6.0" x="132" y="124"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="E1373649849866__2aa47410-1b0e-4f8b-ad54-d6f798080cb4"
