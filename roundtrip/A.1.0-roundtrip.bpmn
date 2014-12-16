@@ -12,9 +12,9 @@
                       name="A.1.0"
                       targetNamespace="http://www.omg.org/spec/BPMN/20100524/MODEL">
    <semantic:process id="WFP-6-" isExecutable="true">
-      <semantic:startEvent id="_93c466ab-b271-4376-a427-f4c353d55ce8" name="Start Event"/>
-      <semantic:task id="_820c21c0-45f3-473b-813f-06381cc637cd" name="Task 2"/>
-      <semantic:task id="_e70a6fcb-913c-4a7b-a65d-e83adc73d69c" name="Task 3"/>
+      <semantic:startEvent id="_93c466ab-b271-4376-a427-f4c353d55ce8" name="Event"/>
+      <semantic:task id="_820c21c0-45f3-473b-813f-06381cc637cd" name="Task asddddddddddddddddd"/>
+      <semantic:task id="_e70a6fcb-913c-4a7b-a65d-e83adc73d69c" name="Task ssssssssssssss3"/>
       <semantic:endEvent id="_a47df184-085b-49f7-bb82-031c84625821" name="End Event"/>
       <semantic:sequenceFlow id="_e16564d7-0c4c-413e-95f6-f668a3f851fb" name=""
                              sourceRef="_93c466ab-b271-4376-a427-f4c353d55ce8"
